@@ -1,0 +1,154 @@
+.cart-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.cart-item-image {
+  height: 80px;
+  width: 140px;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.cart-item-name {
+  margin: 0px;
+  padding: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+
+.cart-item-quantity-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 43%;
+  margin-left: 15px;
+}
+
+.item-quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cart-item-cost {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  margin-left: 15px;
+}
+
+.empty-view-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-image {
+  height: 350px;
+  width: 400px;
+}
+
+.empty-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.Empty-description {
+  margin: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+.order-now-button {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  color: white;
+  font-size: bold;
+}
+
+.place-order-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-image {
+  height: 64px;
+  width: 64px;
+}
+
+.success-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.success-description {
+  margin: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+.go-to-home-button {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  color: white;
+  font-size: bold;
+}

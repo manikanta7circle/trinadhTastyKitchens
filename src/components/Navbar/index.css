@@ -1,0 +1,141 @@
+.navbar-container {
+  background: #f8fafc;
+  padding: 20px;
+  padding-left: 180px;
+  padding-right: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav-link-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.website-nav-logo {
+  margin-right: 20px;
+  height: 50px;
+  width: 40px;
+}
+.website-logo-text {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: space-around;
+  align-items: centers;
+}
+.nav-links-container {
+  align-self: flex-end;
+}
+
+.logout-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background: #f7931e;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-link {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #334155;
+}
+
+.nav-link-active {
+  color: #f7931e;
+}
+.md-menu-button {
+  display: none;
+}
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  width: 90vw;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin: auto;
+}
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+@media (max-width: 768px) {
+  .navbar-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .md-menu-button {
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .popup-close-button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 50px;
+  }
+  .popup-md-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid red;
+  }
+}

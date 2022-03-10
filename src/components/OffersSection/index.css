@@ -1,0 +1,21 @@
+.offers-section {
+  padding-left: 180px;
+  padding-right: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.offers-loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .offers-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

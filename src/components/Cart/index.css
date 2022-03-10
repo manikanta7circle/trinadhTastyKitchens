@@ -1,0 +1,131 @@
+.cart-items-page-container {
+  min-height: 100vh;
+  width: 100%;
+}
+.cart-container {
+  padding-left: 180px;
+  padding-right: 180px;
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+.cart-list-container {
+  background-color: #f9fbfe;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  padding-bottom: 20px;
+}
+
+.headings-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.heading-text {
+  margin: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+  text-align: center;
+}
+
+.heading-text-size1 {
+  width: 40%;
+}
+.heading-text-size2 {
+  width: 30%;
+}
+
+.heading-text-size3 {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.cart-items-list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px dashed #cbd2d9;
+}
+
+.order-summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oder-summary-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3e4c59;
+  margin: 0px;
+}
+
+.total-price {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3e4c59;
+}
+
+.place-order-button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.place-order-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+}
+
+.link-home {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 20px;
+  }
+  .headings-container {
+    display: none;
+  }
+  .cart-item-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .cart-list-container {
+    padding: 10px;
+  }
+}
